@@ -1,0 +1,304 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: 100%;
+}
+main{
+  height: 100%;
+}
+.page-heading{
+  font-size: 70pt;
+}
+.arena-main{
+  height: 100%;
+  width: 100vw;
+  background-image: url('http://rwallpapers.com/wp-content/uploads/2018/05/clash-royale-wallpaper-for-android.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
+  background-attachment: fixed;
+}
+@keyframes flash{
+  50% {
+    background-color: white;
+  }
+  100%{
+    background-color: #3273dc;
+  }
+  /* className={`box ${this.state.added ? flash : notFlash}`} */
+
+}
+.remove-button-selected-cards{
+  background-color: red;
+  border: none;
+  font-weight: bold;
+  width: 60px;
+  height: 30px;
+  margin-left: 80%;
+  margin-top: 10px;
+}
+.inside-modal-stuff{
+  background-color: blue;
+  text-align: center;
+  color: white;
+  height: 200px;
+  padding-top: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.remove-button-deck{
+  background-color: red;
+  border: none;
+  font-weight: bold;
+  width: 60px;
+  height: 30px;
+  position: relative;
+  z-index: 2;
+  position: relative;
+  margin-left: -125px;
+}
+.flash-ani{
+  background-color: white;
+  color: blue;
+  margin: 10px;
+  margin-right: 20px;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: bold;
+  border: solid white 1px;
+  padding: 4px;
+}
+.flash-ani-remove{
+  background-color: red;
+  color: black;
+  margin: 10px;
+  margin-right: 20px;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: bold;
+  border: solid white 1px;
+  padding: 4px;
+}
+.tile-length{
+  width: 620px;
+}
+#input-style{
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.cards-in-deck{
+  border-radius: 4px;
+  margin: 10px;
+  margin-right: 20px;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: bold;
+  border: solid white 1px;
+  padding: 4px;
+  color: white;
+}
+.cards-in-deck:hover {
+  color: grey;
+}
+.arena-flex{
+  display: flex;
+}
+.back-button{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.cards-main{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://images6.alphacoders.com/855/thumb-1920-855977.jpg');
+  /* background-color: rgb(68, 68, 97); */
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  text-align: center;
+  /* position: fixed; */
+  background-attachment: fixed;
+}
+.chests-main{
+  /* background-image: url('https://wallpapercave.com/wp/wp1815976.jpg'); */
+  background-image: url('https://i.pinimg.com/originals/85/0d/80/850d80424364220b7fa6e757dd3716f4.jpg');
+  height: 100%;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: 600px 800px; */
+  overflow-y: scroll;
+  /* position: fixed; */
+}
+.chest-list{
+  background-color: blue;
+  width: 500px;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: black 4px 7px 11px;
+  color: white;
+  padding: 10px;
+
+}
+.chest-image{
+  margin: 30px auto;
+  text-align: center;
+  width: 240px;
+}
+.arena-img{
+  margin: 30px;
+  width: 500px;
+  height: 500px;
+}
+.league-img{
+  width: 200px;
+  margin: 30px;
+}
+.chest-col{
+  display: flex;
+  justify-content: center;
+  flex-direction: column
+}
+.home-main{
+  height: 100%;
+  width: 100vw;
+  background-image: url('http://www.ubuntu-ast.org/largeimages/96/969419_clash-royale-wallpaper-hd.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow-y: scroll;
+  background-attachment: fixed;
+  /* background-attachment: fixed; */
+}
+.fill-bg{
+  height: 100%;
+}
+.fill-cards{
+  height: 100%;
+}
+.league-main{
+  height: 100%;
+  width: 100vw;
+  background-image: url('https://clashroyaletopdeck.com/wp-content/uploads/2017/03/clash-royale-league-system-1024x1024.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow-y: scroll;
+  text-align: center;
+  /* position: fixed; */
+  background-attachment: fixed;
+}
+.nav-bar{
+  background-color: grey;
+  position: static;
+}
+.link-margin{
+  margin-top: 50px;
+}
+.home-bg{
+  height: 500px;
+  /* background-color: rgb(68, 68, 97); */
+  background-image: url('https://i.pinimg.com/originals/85/0d/80/850d80424364220b7fa6e757dd3716f4.jpg');
+  background-attachment: fixed;
+}
+button{
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  margin: 20px 80px;
+  box-shadow: black 4px 7px 11px;
+}
+input{
+  margin-top: 100px;
+  height: 50px;
+  font-size: 22pt;
+  border-radius: 4px;
+  box-shadow: black 4px 7px 11px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+article.tile{
+  background-color: blue;
+  background-size: 100%;
+  text-align: center;
+}
+button{
+  cursor: pointer;
+}
+.white-text{
+  color: white;
+  font-size: 28pt;
+}
+.card-list{
+  width: 200px;
+  text-align: center;
+  background-color: blue;
+  box-shadow: black 4px 7px 11px;
+  margin: 20px 15px;
+  color: white;
+  font-weight: bold;
+}
+.card-list:hover {
+  color: grey;
+  cursor: pointer;
+}
+.arena-box{
+  height: 200px;
+  margin: auto 90px;
+  background-color: blue;
+  width: 400px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: black 4px 7px 11px;
+
+}
+.deck-box{
+  display: flex;
+  flex-wrap: wrap;
+  height: 530px;
+  margin: 40px auto;
+  background-color: blue;
+  width: 930px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: black 4px 7px 11px;
+}
+.card-deck{
+  margin: 10px;
+  width: 180px;
+}
+.center-heading{
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+.selected-card{
+  width: 600px;
+  background-color: blue;
+  box-shadow: black 4px 7px 11px;
+  text-align: center;
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+}
+.flex-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
